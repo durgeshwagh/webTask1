@@ -1,0 +1,147 @@
+.bathImage{
+    margin-top: 10px;
+    width:550px;
+   
+    box-shadow: 10px 10px 1px rgb(255, 145, 0);
+
+}
+.homeContaint{
+
+    margin-top:10px; 
+    font-weight:normal;
+}
+.homeHeading{
+    color: rgb(255, 145, 0) ;
+    
+    margin-top:10px;    
+}
+
+.bi-check-circle{
+    color: rgb(255, 145, 0) ;
+  
+}
+h5{
+    margin-top: 20px;
+    font-size: small;
+    font-weight: 400;
+}
+            
+.main{
+    
+    width: 600px;
+    height: 400px;
+    background-color: rgb(244, 243, 241);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #ccc;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.main-I{   
+    width: 600px;
+    height: 450px;
+    background-color: rgb(244, 243, 241);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #ccc;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+ 
+
+}
+.main-II{   
+    width: 600px;
+    height: 450px;
+    background-color: rgb(244, 243, 241);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #ccc;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+.button{
+    width:550px;
+    background-color: rgb(255, 145, 0);
+    color:white;
+    border-radius: 5px;
+    border: none;
+}
+.button-1{
+    width:260px;
+    background-color: rgb(255, 145, 0);
+    color:white;
+    border-radius: 5px;
+    border: none;
+    margin-right:10px;
+    
+}
+.button-2{
+    width:260px;
+    background-color: rgb(255, 145, 0);
+    color:white;
+    border-radius: 5px;
+    border: none;
+    margin-left:10px
+       
+}
+.buttonGroup{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.formInput{
+    width: 550px;
+    background: white;
+    border: 1px solid rgb(255, 145, 0);
+    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.formLabel{
+    margin-top: 5px;
+   margin-left :25px      
+  
+}
+.btn-outline-dark{
+     width: 80px;
+     height: 80px;
+    
+     background-color: white;
+     border: none;
+   
+}
+
+.btn-outline-dark:hover{
+    border: 1px solid rgb(255, 145, 0) ;
+    color: black;
+
+}
+
+.button-Info{
+    
+    font-weight: 400;
+    font-size: 10px ;
+
+}
+.formLabel{
+    text-align: start;
+}
+
+.pngImage{
+    width: 60px;
+    height: 70px;
+    margin-right: 10px;
+   margin-bottom: 10px;
+
+}
+
+#form2{
+    left: 450px;
+}
+
+#form3{
+    left: 450px;
+}

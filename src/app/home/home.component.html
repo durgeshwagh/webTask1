@@ -1,0 +1,193 @@
+<div class="container">
+<!-- 1st   row -->
+  <div class="row">
+
+    <!-- 1st   col -->
+    <div class="col  ">
+       <div>
+             <h6 class="homeHeading"> GET A 100% FREE QUOTE </h6>
+             <h3><b>One-Day Bath Remodels</b></h3>
+       </div>
+   
+   
+ 
+
+  
+      <h6 class="homeContaint">your Dream Bathroom Installed in Little As 1 Day!</h6>
+
+      <img class="bathImage"
+        src="https://c4.wallpaperflare.com/wallpaper/64/822/338/design-interior-chair-bath-wallpaper-preview.jpg"
+        alt="">
+
+      <h5> <i class="bi bi-check-circle"></i>Completely FREE Quote - No Obligation</h5>
+      <h5><i class="bi bi-check-circle"></i> Full Bathroom Remodels</h5>
+      <h5> <i class="bi bi-check-circle"></i>New Tub Installations</h5>
+      <h5> <i class="bi bi-check-circle"></i>New Shower Installations</h5>
+    </div>
+
+     <!-- 2nd  col -->
+    
+   <div class="col">
+
+    <!-- form 1 -->
+  <div class="main" id="form1" *ngIf="step==1">
+    <h2><b>Get A Free Quete</b></h2>
+    progress bar
+    <h6> what type of service do you need ? </h6>
+
+    <div class="buttonGroup">
+      <div> <a class="btn btn-outline-dark btn-lg" href="#" role="button">
+          <img class="pngImage"
+            src="https://e7.pngegg.com/pngimages/665/539/png-clipart-hot-tub-bathtub-computer-icons-bathroom-take-a-shower-angle-furniture-thumbnail.png"
+            alt=""></a>
+        <div>
+          <h6 class="button-Info">Tub Installation</h6>
+        </div>
+      </div>
+      <div> <a class="btn btn-outline-dark btn-lg" href="#" role="button">
+          <img class="pngImage"
+            src="https://e7.pngegg.com/pngimages/866/252/png-clipart-shower-computer-icons-take-a-shower-furniture-text-thumbnail.png"
+            alt=""></a>
+        <h6 class="button-Info">BAth Updates</h6>
+      </div>
+      <div> <a class="btn btn-outline-dark btn-lg" href="#" role="button">
+          <img class="pngImage"
+            src="https://e7.pngegg.com/pngimages/217/90/png-clipart-shower-bathtub-bathroom-take-a-shower-furniture-text-thumbnail.png"
+            alt=""></a>
+        <h6 class="button-Info">Bath/Liner Encloser</h6>
+      </div>
+      <div> <a class="btn btn-outline-dark btn-lg" href="#" role="button">
+          <img class="pngImage"
+            src="https://w7.pngwing.com/pngs/46/230/png-transparent-computer-icons-shower-shower-icon-game-angle-line-thumbnail.png"
+            alt=""></a>
+        <h6 class="button-Info">Walk in shower</h6>
+      </div>
+      <div> <a class="btn btn-outline-dark btn-lg" href="#" role="button">
+          <img class="pngImage"
+            src="https://w7.pngwing.com/pngs/98/986/png-transparent-bathroom-shower-plumbing-computer-icons-urinal-shower-furniture-bathroom-room-thumbnail.png"
+            alt=""></a>
+        <h6 class="button-Info">Bath Remdel</h6>
+      </div>
+
+
+
+    </div>
+    <!-- Form -1  -->
+    <div>
+
+
+      <form #myForm="ngForm">
+        <div class="form-row">
+          <div class=" col-md-12">
+            <p class="formLabel"> <label for="inputZip">Where will project takes place?</label></p>
+            <input type="text" class="formInput" placeholder="Zip Code*" name="zip" ngModel>
+          </div>
+
+        </div>
+
+        <button  (click)="next1()" class="button" id="Next1">NEXT STEP</button>
+      </form>
+    </div>
+
+
+
+
+
+
+
+  </div>
+
+     <!-- form 2 -->
+  <div  *ngIf="step==2"   >
+    <form class="main-I" id="form2" >
+      <div class="col-12">
+        <p class="formLabel"> <label for="inputZip">Address</label></p>
+        <input type="text" class="formInput" id="inputAddress" placeholder="1234 Main St">
+      </div>
+
+      <div class="col-12">
+        <p class="formLabel"> <label for="inputZip">Property type</label></p>
+
+        <select id="inputProperty" class="formInput">
+          <option selected>Choose...</option>
+          <option>Residential</option>
+          <option>Commercial</option>
+          <option>Multi-Unit</option>
+        </select>
+      </div>
+
+      <div class="col-12">
+        <p class="formLabel"> <label for="inputZip">What's your timeframe?</label></p>
+
+        <select id="inputProperty" class="formInput">
+          <option selected>Choose...</option>
+          <option>Immaditate</option>
+          <option>1Week</option>
+          <option>1-2 Week</option>
+          <option>Over 2 Weeks</option>
+        </select>
+      </div>
+
+
+      <div class="col-12">
+        <p class="formLabel"> <label for="inputZip">Are Yoe the Owner?</label></p>
+        <select id="inputProperty" class="formInput">
+          <option selected>Yes</option>
+          <option>No</option>
+        </select>
+         
+      </div>
+      <div class="col-12">
+        <button (click)="Back1()" class="button-1" id="Back1">PREVIOUS</button>
+         <button (click)="next2()" class="button-2" id="Next2">NEXT STEP</button>
+      </div>
+    </form>
+
+  </div>
+
+
+  <!-- form 3 -->
+
+  <div  *ngIf="step==3">
+    <form class="main-II"  id="form3" >
+
+   
+      <div class=" col-md-12">
+        <p class="formLabel"> <label for="inputZip">Name</label></p>
+        <input type="text" class="formInput" placeholder="Zip Code*" id="inputZip">
+      </div>
+
+      <div class=" col-md-12">
+        <p class="formLabel"> <label for="inputZip">Last Name</label></p>
+        <input type="text" class="formInput" placeholder="Last Name" id="inputZip">
+      </div>
+
+      <div class=" col-md-12">
+        <p class="formLabel"> <label for="inputZip">Email</label></p>
+        <input type="email" class="formInput" placeholder="Email" id="inputZip">
+      </div>
+
+      <div class=" col-md-12">
+        <p class="formLabel"> <label for="inputZip">Phone</label></p>
+        <input type="text" class="formInput" placeholder="Phone" id="inputZip">
+      </div>
+      
+
+      <div class="col-12">
+        <button   class="button-1" id="Back2">PREVIOUS</button>
+         <button class="button-2  ">SUBMIT</button>
+      </div>
+    
+   </form> 
+  </div>
+
+   </div>
+
+
+
+
+ </div>
+  
+
+
+ 

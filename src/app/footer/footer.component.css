@@ -1,0 +1,14 @@
+.footer{
+    background-color: #000000;
+    color:#ffffff;
+   text-align: center;
+   position:relative;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   height: 80px;
+  
+} 
+.footerData{
+    margin-top: 15px;
+}
